@@ -1,10 +1,6 @@
 #tracking-details
   %h2= "Details for tracking number #{@tracking.package_id}"
-  %table
-    %tr{:style => 'display: none;'}
-      %th{:class => 'date'}
-      %th{:class => 'description'}
-      %th{:class => 'location'}
+  %table    
     - @tracking.events.each do |event|
       %tr
         %td= pretty_date(event.date)

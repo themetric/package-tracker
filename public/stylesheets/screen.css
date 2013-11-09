@@ -1,4 +1,4 @@
-/* line 17, ../../../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../.rvm/gems/ruby-1.9.2-p320@package-tracker/gems/compass-0.11.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,137 +20,145 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 20, ../../../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 20, ../../../../.rvm/gems/ruby-1.9.2-p320@package-tracker/gems/compass-0.11.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 body {
   line-height: 1;
 }
 
-/* line 22, ../../../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../.rvm/gems/ruby-1.9.2-p320@package-tracker/gems/compass-0.11.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 24, ../../../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../.rvm/gems/ruby-1.9.2-p320@package-tracker/gems/compass-0.11.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 26, ../../../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../.rvm/gems/ruby-1.9.2-p320@package-tracker/gems/compass-0.11.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 28, ../../../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../.rvm/gems/ruby-1.9.2-p320@package-tracker/gems/compass-0.11.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 101, ../../../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 101, ../../../../.rvm/gems/ruby-1.9.2-p320@package-tracker/gems/compass-0.11.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 30, ../../../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../.rvm/gems/ruby-1.9.2-p320@package-tracker/gems/compass-0.11.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 115, ../../../../../../../usr/local/lib/ruby/gems/1.9.1/gems/compass-0.11.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 115, ../../../../.rvm/gems/ruby-1.9.2-p320@package-tracker/gems/compass-0.11.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
 /* line 4, ../../app/stylesheets/screen.scss */
-body {
-  background: #2f2f2f;
-  width: 810px;
-  margin: 0 auto;
-  color: white;
-  font-family: 'Museo Sans', "museosans-web", 'serif';
-  font-weight: bold;
+html {
+  height: 100%;
 }
 
-/* line 13, ../../app/stylesheets/screen.scss */
+/* line 8, ../../app/stylesheets/screen.scss */
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: arial;
+}
+
+/* line 16, ../../app/stylesheets/screen.scss */
+#map-container, #content {
+  height: 100%;
+}
+
+/* line 20, ../../app/stylesheets/screen.scss */
 a {
   text-decoration: none;
   color: #888;
 }
-/* line 16, ../../app/stylesheets/screen.scss */
+/* line 23, ../../app/stylesheets/screen.scss */
 a:hover {
   color: #ccc;
 }
 
-/* line 21, ../../app/stylesheets/screen.scss */
-#tracking_form {
-  width: 810px;
-  margin-bottom: 25px;
+/* line 28, ../../app/stylesheets/screen.scss */
+#floating {
+  border-right: 1px solid #DDD;
+  text-align: center;
+  background-color: white;
+  max-width: 300px;
+  height: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
 }
-/* line 24, ../../app/stylesheets/screen.scss */
+
+/* line 39, ../../app/stylesheets/screen.scss */
+#tracking_form {
+  margin-bottom: 25px;
+  padding: 30px;
+}
+/* line 42, ../../app/stylesheets/screen.scss */
 #tracking_form label {
   display: none;
 }
-/* line 27, ../../app/stylesheets/screen.scss */
-#tracking_form input {
-  width: 673px;
-}
-/* line 30, ../../app/stylesheets/screen.scss */
+/* line 47, ../../app/stylesheets/screen.scss */
 #tracking_form .button {
-  width: 125px;
+  width: 227px;
+  margin-top: 10px;
 }
 
-/* line 35, ../../app/stylesheets/screen.scss */
+/* line 53, ../../app/stylesheets/screen.scss */
 #tracking-details {
-  background-color: rgba(0, 0, 0, 0.3);
-  background: #202020;
+  max-height: 300px;
+  overflow-y: scroll;
   padding: 15px;
   margin-bottom: 15px;
-  -moz-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
-  -webkit-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
-  -o-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
-  box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0, rgba(0, 0, 0, 0.8) 0 1px 7px 0px inset;
-  -moz-border-radius: 6px;
-  -webkit-border-radius: 6px;
-  -o-border-radius: 6px;
-  -ms-border-radius: 6px;
-  -khtml-border-radius: 6px;
-  border-radius: 6px;
 }
-/* line 43, ../../app/stylesheets/screen.scss */
+/* line 58, ../../app/stylesheets/screen.scss */
 #tracking-details table {
   width: 100%;
 }
-/* line 45, ../../app/stylesheets/screen.scss */
+/* line 60, ../../app/stylesheets/screen.scss */
 #tracking-details table tr {
   height: 1.2em;
 }
-/* line 48, ../../app/stylesheets/screen.scss */
+/* line 63, ../../app/stylesheets/screen.scss */
 #tracking-details table th.date {
   width: 150px;
 }
-/* line 51, ../../app/stylesheets/screen.scss */
+/* line 66, ../../app/stylesheets/screen.scss */
 #tracking-details table th.description {
   width: 400px;
 }
-/* line 54, ../../app/stylesheets/screen.scss */
+/* line 69, ../../app/stylesheets/screen.scss */
 #tracking-details table th.location {
   width: 230px;
 }
-/* line 59, ../../app/stylesheets/screen.scss */
+/* line 74, ../../app/stylesheets/screen.scss */
 #tracking-details ul {
   font-weight: normal;
   line-height: 1.5em;
 }
-/* line 62, ../../app/stylesheets/screen.scss */
+/* line 77, ../../app/stylesheets/screen.scss */
 #tracking-details ul li:first-child {
   color: green;
   font-weight: bold;
   margin-bottom: 0.5em;
 }
-/* line 69, ../../app/stylesheets/screen.scss */
+/* line 84, ../../app/stylesheets/screen.scss */
 #tracking-details h2 {
   text-align: center;
   font-size: 1.1em;
@@ -158,28 +166,31 @@ a:hover {
   color: #dadbb1;
 }
 
-/* line 77, ../../app/stylesheets/screen.scss */
+/* line 92, ../../app/stylesheets/screen.scss */
 .provided-by {
   font-weight: normal;
   font-size: 0.75em;
 }
 
-/* line 82, ../../app/stylesheets/screen.scss */
+/* line 97, ../../app/stylesheets/screen.scss */
 h1 {
-  color: #dadbb1;
-  font-size: 2em;
-  margin-top: 15px;
+  color: #d6d6d6;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 55px;
   margin-bottom: 15px;
   width: 100%;
   text-align: center;
 }
 
-/* line 91, ../../app/stylesheets/screen.scss */
+/* line 107, ../../app/stylesheets/screen.scss */
 input {
   outline: none;
   border: 1px solid #c8c8c8;
-  height: 60px;
-  font-size: 30px;
+  height: 40px;
+  font-size: 20px;
+  max-width: 225px;
+  text-align: center;
   -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
   -o-border-radius: 6px;
@@ -201,20 +212,28 @@ input {
   background-image: -ms-linear-gradient(#f0f0f0, #ffffff 30%, #ffffff);
   background-image: linear-gradient(#f0f0f0, #ffffff 30%, #ffffff);
 }
-/* line 101, ../../app/stylesheets/screen.scss */
+/* line 119, ../../app/stylesheets/screen.scss */
 input:focus {
   -moz-box-shadow: 0 0 8px #c8c8c8;
   -webkit-box-shadow: 0 0 8px #c8c8c8;
   -o-box-shadow: 0 0 8px #c8c8c8;
   box-shadow: 0 0 8px #c8c8c8;
 }
-/* line 105, ../../app/stylesheets/screen.scss */
+/* line 123, ../../app/stylesheets/screen.scss */
 input.button {
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #aaaaaa));
-  background-image: -webkit-linear-gradient(#ffffff, #aaaaaa);
-  background-image: -moz-linear-gradient(#ffffff, #aaaaaa);
-  background-image: -o-linear-gradient(#ffffff, #aaaaaa);
-  background-image: -ms-linear-gradient(#ffffff, #aaaaaa);
-  background-image: linear-gradient(#ffffff, #aaaaaa);
+  background: #428bca;
+  border: 1px solid;
+  border-color: #428bca;
+  color: white;
   cursor: pointer;
+}
+
+/* line 132, ../../app/stylesheets/screen.scss */
+.leaflet-container {
+  margin-left: 300px;
+}
+
+/* line 136, ../../app/stylesheets/screen.scss */
+.leaflet-popup-content {
+  color: black;
 }
